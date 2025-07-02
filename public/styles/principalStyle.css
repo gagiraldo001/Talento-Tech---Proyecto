@@ -1,0 +1,52 @@
+/*public\styles\principalStyle.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(colors.css);
+
+.card-img-top {
+  height: 120px;
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background-color: var(--yellow-color);
+  border-color: rgb(41, 253, 8);
+}
+
+.card:hover .card-img-top {
+  filter: brightness(1.2) saturate(1.2);
+}
+
+
+@media (max-width: 700px) {
+
+    header .right {
+        display: block;
+        cursor: pointer;
+    }
+
+    main {
+        padding-left: 0.4rem;
+    }
+
+    @media (max-width: 450px) {
+        header .left .brand-logo {
+            display: none;
+        }
+
+        header .left .brand-name {
+            display: none;
+        }
+    }
+}

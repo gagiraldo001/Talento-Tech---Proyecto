@@ -1,0 +1,16 @@
+/* public\styles\colors.css */
+
+:root {
+    --background-color: #F0F0F0;
+    --border-color: #D1D5DB;
+    --primary-color: #0c5d7d;
+    --primary-color-placeholder: #0c5d7d5f;
+    --scrollbar-thumb-hover-color: #555;
+    --scrollbar-thumb-color: #5d595a44;
+    --color-menu-fondo: #FFFFFF;
+    --color-menu-text: #1E3A8A;
+    --menu-hover-color: #4a84ab3c;
+    --yellow-color: #e6ff81;
+    --blue-color: #264db96e;
+    --white-opacity: rgba(255, 255, 255, 0.7);
+}

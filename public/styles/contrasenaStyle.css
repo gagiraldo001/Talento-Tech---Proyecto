@@ -1,0 +1,51 @@
+/* public\styles\contrasenaStyle.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(colors.css);
+
+.input-group {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.container-contrasenas {
+    background: var(--background-color);
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    animation: slideIn 1s ease-out;
+    height: auto;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#mensaje {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#mensaje.mostrar {
+    opacity: 1;
+}
