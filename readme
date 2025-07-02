@@ -1,0 +1,22 @@
+El sistema de información SSIST manejará el control de los inventarios de la entrada y salida de los productos, conservándolos en una base de datos, también facilitará la información de proveedores, dando un mejor servicio a los clientes, donde se tendrán las siguientes funciones:
+
+•	Manejo de una base de datos con la relación de los productos, clientes y proveedores.
+•	Exportar y/o imprimir los inventarios actualizados.
+•	Controla y registra  la salida y entrada de los productos.
+•	Búsqueda de productos en existencia.
+•	Alerta ante existencias mínimas de productos.
+•	Middlewares de protección de sesión 
+•	Encriptación de contraseñas con bcrypt
+
+
+MVC --> Modelo Vista Controlador
+MySQL --> base de datos relacional
+Node js + express
+Rutas estáticas con path
+
+Se desarrollaron diferentes formularios para el fronend con sus respectivos estilos, y los scripts que comunican con el backend
+Se cuenta con controladores, rutas y modelos para los modulos de usuarios, contraseñas y empleados.
+
+Para efectos de desarrollo dejo el archivo cambiarContraseña.js el cual se utilizó para ajustar las contraseñas ya guardadas en la base de datos conforme a bcrypt.
+
+Adjunto copia de base de datos para efectos de verificación de su diseño y arquitectura.
